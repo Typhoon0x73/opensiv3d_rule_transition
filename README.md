@@ -1,0 +1,2 @@
+# opensiv3d_rule_transition
+opensiv3dで動作するルール画像を用いたフェード処理
