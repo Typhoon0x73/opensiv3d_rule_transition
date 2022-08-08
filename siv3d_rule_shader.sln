@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "siv3d_rule_shader", "siv3d_rule_shader\siv3d_rule_shader.vcxproj", "{5069CDDE-F90B-4772-A2C2-A814B12E703C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5069CDDE-F90B-4772-A2C2-A814B12E703C}.Debug|x64.ActiveCfg = Debug|x64
+		{5069CDDE-F90B-4772-A2C2-A814B12E703C}.Debug|x64.Build.0 = Debug|x64
+		{5069CDDE-F90B-4772-A2C2-A814B12E703C}.Release|x64.ActiveCfg = Release|x64
+		{5069CDDE-F90B-4772-A2C2-A814B12E703C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7473D557-DF9F-49B5-B7A7-C994B2BBEEF0}
+	EndGlobalSection
+EndGlobal
