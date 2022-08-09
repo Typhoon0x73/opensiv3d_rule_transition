@@ -1,5 +1,7 @@
 ﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.4
 
+SIV3D_SET(EngineOption::Renderer::OpenGL); // Windows で Direct3D の代わりに OpenGL を使用
+
 // シェーダー側と合わせたバッファ構造体
 struct RuleFade
 {
@@ -10,7 +12,9 @@ struct RuleFade
 void Main()
 {
 	// シェーダーの読み込み
-	PixelShader ps = HLSL{ U"Resources/rule_fade.hlsl" };
+	PixelShader ps = HLSL{ U"Resources/rule_fade.hlsl", U"PS" }
+	| GLSL{ U"Resources/rule_fade.frag", { { U"PSConstants2D", 0 }, { U"RuleFade", 1 } } };
+
 	if (not ps)
 	{
 		throw Error{ U"Failed to load a shader file" };
