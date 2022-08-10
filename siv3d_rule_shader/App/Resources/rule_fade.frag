@@ -50,6 +50,6 @@ void main()
     float maskValue = texture(Texture1, UV).r;
     // smoothstep(エルミート補完)で透過値を決定
     float alpha = smoothstep(minValue, maxValue, maskValue);
-    vec4 texCol = texture(Texture0, UV);
-    FragColor = ((vec4(texCol.rgb, alpha) * Color) + g_colorAdd);
+    vec4 texCol = texture(Texture0, UV) * Color + g_colorAdd;
+    FragColor = vec4(texCol.rgb, alpha);
 }
