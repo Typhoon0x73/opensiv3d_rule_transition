@@ -52,6 +52,6 @@ float4 PS(s3d::PSInput input) : SV_TARGET
     float alpha = smoothstep(minValue, maxValue, maskValue);
     
     // 割り当てたテクスチャを使う
-    float4 col = g_texture0.Sample(g_sampler0, input.uv);
-    return ((float4(color.rgb, alpha) * input.color) + g_colorAdd);
+    float4 col = g_texture0.Sample(g_sampler0, input.uv) * input.color + g_colorAdd;
+    return float4(col.rgb, alpha);
 }
