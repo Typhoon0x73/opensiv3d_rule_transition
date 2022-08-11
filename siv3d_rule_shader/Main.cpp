@@ -1,4 +1,4 @@
-﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.4
+﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.5
 
 //#define CUSTOM_SELECT_TEXTURE
 SIV3D_SET(EngineOption::Renderer::OpenGL); // Windows で Direct3D の代わりに OpenGL を使用
