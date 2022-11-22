@@ -1,4 +1,4 @@
-﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.5
+﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 //#define CUSTOM_SELECT_TEXTURE
 SIV3D_SET(EngineOption::Renderer::OpenGL); // Windows で Direct3D の代わりに OpenGL を使用
@@ -29,13 +29,13 @@ void LoadTextures(Array<Texture>* v1, ListBoxState* v2)
 #ifdef CUSTOM_SELECT_TEXTURE
 	for (const auto& path : custom_texture_paths)
 	{
-		v2->items.push_back(FileSystem::FileName(path));
+		v2->items.emplace_back(FileSystem::FileName(path));
 		v1->emplace_back(Texture{ path });
 	}
 #else
 	for (int i = 0; i < texture_count; i++)
 	{
-		v2->items.push_back(U"{0}.{1}"_fmt(i + 1, (i > 175 ? U"jpg" : U"png")));
+		v2->items.emplace_back(U"{0}.{1}"_fmt(i + 1, (i > 175 ? U"jpg" : U"png")));
 		v1->emplace_back(Texture{ U"Resources/rule800/{0}"_fmt(v2->items[i]) });
 	}
 #endif // CUSTOM_SELECT_TEXTURE

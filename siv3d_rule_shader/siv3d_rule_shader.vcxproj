@@ -12,7 +12,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{5069cdde-f90b-4772-a2c2-a814b12e703c}</ProjectGuid>
+    <ProjectGuid>{d422b5e6-2187-4104-9f47-f9be252981eb}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>siv3d_rule_shader</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
@@ -49,16 +49,16 @@
     <IntDir>$(SolutionDir)Intermediate\$(ProjectName)\Debug\Intermediate\</IntDir>
     <TargetName>$(ProjectName)(debug)</TargetName>
     <LocalDebuggerWorkingDirectory>$(ProjectDir)App</LocalDebuggerWorkingDirectory>
-    <IncludePath>$(SIV3D_0_6_5)\include;$(SIV3D_0_6_5)\include\ThirdParty;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SIV3D_0_6_5)\lib\Windows;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SIV3D_0_6_6)\include;$(SIV3D_0_6_6)\include\ThirdParty;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SIV3D_0_6_6)\lib\Windows;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)Intermediate\$(ProjectName)\Release\</OutDir>
     <IntDir>$(SolutionDir)Intermediate\$(ProjectName)\Release\Intermediate\</IntDir>
     <LocalDebuggerWorkingDirectory>$(ProjectDir)App</LocalDebuggerWorkingDirectory>
-    <IncludePath>$(SIV3D_0_6_5)\include;$(SIV3D_0_6_5)\include\ThirdParty;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SIV3D_0_6_5)\lib\Windows;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SIV3D_0_6_6)\include;$(SIV3D_0_6_6)\include\ThirdParty;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SIV3D_0_6_6)\lib\Windows;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -144,239 +144,6 @@
     <Image Include="App\example\texture\wood.jpg" />
     <Image Include="App\example\windmill.png" />
     <Image Include="App\icon.ico" />
-    <Image Include="App\Resources\rule800\1.png" />
-    <Image Include="App\Resources\rule800\10.png" />
-    <Image Include="App\Resources\rule800\100.png" />
-    <Image Include="App\Resources\rule800\101.png" />
-    <Image Include="App\Resources\rule800\102.png" />
-    <Image Include="App\Resources\rule800\103.png" />
-    <Image Include="App\Resources\rule800\104.png" />
-    <Image Include="App\Resources\rule800\105.png" />
-    <Image Include="App\Resources\rule800\106.png" />
-    <Image Include="App\Resources\rule800\107.png" />
-    <Image Include="App\Resources\rule800\108.png" />
-    <Image Include="App\Resources\rule800\109.png" />
-    <Image Include="App\Resources\rule800\11.png" />
-    <Image Include="App\Resources\rule800\110.png" />
-    <Image Include="App\Resources\rule800\111.png" />
-    <Image Include="App\Resources\rule800\112.png" />
-    <Image Include="App\Resources\rule800\113.png" />
-    <Image Include="App\Resources\rule800\114.png" />
-    <Image Include="App\Resources\rule800\115.png" />
-    <Image Include="App\Resources\rule800\116.png" />
-    <Image Include="App\Resources\rule800\117.png" />
-    <Image Include="App\Resources\rule800\118.png" />
-    <Image Include="App\Resources\rule800\119.png" />
-    <Image Include="App\Resources\rule800\12.png" />
-    <Image Include="App\Resources\rule800\120.png" />
-    <Image Include="App\Resources\rule800\121.png" />
-    <Image Include="App\Resources\rule800\122.png" />
-    <Image Include="App\Resources\rule800\123.png" />
-    <Image Include="App\Resources\rule800\124.png" />
-    <Image Include="App\Resources\rule800\125.png" />
-    <Image Include="App\Resources\rule800\126.png" />
-    <Image Include="App\Resources\rule800\127.png" />
-    <Image Include="App\Resources\rule800\128.png" />
-    <Image Include="App\Resources\rule800\129.png" />
-    <Image Include="App\Resources\rule800\13.png" />
-    <Image Include="App\Resources\rule800\130.png" />
-    <Image Include="App\Resources\rule800\131.png" />
-    <Image Include="App\Resources\rule800\132.png" />
-    <Image Include="App\Resources\rule800\133.png" />
-    <Image Include="App\Resources\rule800\134.png" />
-    <Image Include="App\Resources\rule800\135.png" />
-    <Image Include="App\Resources\rule800\136.png" />
-    <Image Include="App\Resources\rule800\137.png" />
-    <Image Include="App\Resources\rule800\138.png" />
-    <Image Include="App\Resources\rule800\139.png" />
-    <Image Include="App\Resources\rule800\14.png" />
-    <Image Include="App\Resources\rule800\140.png" />
-    <Image Include="App\Resources\rule800\141.png" />
-    <Image Include="App\Resources\rule800\142.png" />
-    <Image Include="App\Resources\rule800\143.png" />
-    <Image Include="App\Resources\rule800\144.png" />
-    <Image Include="App\Resources\rule800\145.png" />
-    <Image Include="App\Resources\rule800\146.png" />
-    <Image Include="App\Resources\rule800\147.png" />
-    <Image Include="App\Resources\rule800\148.png" />
-    <Image Include="App\Resources\rule800\149.png" />
-    <Image Include="App\Resources\rule800\15.png" />
-    <Image Include="App\Resources\rule800\150.png" />
-    <Image Include="App\Resources\rule800\151.png" />
-    <Image Include="App\Resources\rule800\152.png" />
-    <Image Include="App\Resources\rule800\153.png" />
-    <Image Include="App\Resources\rule800\154.png" />
-    <Image Include="App\Resources\rule800\155.png" />
-    <Image Include="App\Resources\rule800\156.png" />
-    <Image Include="App\Resources\rule800\157.png" />
-    <Image Include="App\Resources\rule800\158.png" />
-    <Image Include="App\Resources\rule800\159.png" />
-    <Image Include="App\Resources\rule800\16.png" />
-    <Image Include="App\Resources\rule800\160.png" />
-    <Image Include="App\Resources\rule800\161.png" />
-    <Image Include="App\Resources\rule800\162.png" />
-    <Image Include="App\Resources\rule800\163.png" />
-    <Image Include="App\Resources\rule800\164.png" />
-    <Image Include="App\Resources\rule800\165.png" />
-    <Image Include="App\Resources\rule800\166.png" />
-    <Image Include="App\Resources\rule800\167.png" />
-    <Image Include="App\Resources\rule800\168.png" />
-    <Image Include="App\Resources\rule800\169.png" />
-    <Image Include="App\Resources\rule800\17.png" />
-    <Image Include="App\Resources\rule800\170.png" />
-    <Image Include="App\Resources\rule800\171.png" />
-    <Image Include="App\Resources\rule800\172.png" />
-    <Image Include="App\Resources\rule800\173.png" />
-    <Image Include="App\Resources\rule800\174.png" />
-    <Image Include="App\Resources\rule800\175.png" />
-    <Image Include="App\Resources\rule800\176.png" />
-    <Image Include="App\Resources\rule800\177.jpg" />
-    <Image Include="App\Resources\rule800\178.jpg" />
-    <Image Include="App\Resources\rule800\179.jpg" />
-    <Image Include="App\Resources\rule800\18.png" />
-    <Image Include="App\Resources\rule800\180.jpg" />
-    <Image Include="App\Resources\rule800\181.jpg" />
-    <Image Include="App\Resources\rule800\182.jpg" />
-    <Image Include="App\Resources\rule800\183.jpg" />
-    <Image Include="App\Resources\rule800\184.jpg" />
-    <Image Include="App\Resources\rule800\185.jpg" />
-    <Image Include="App\Resources\rule800\186.jpg" />
-    <Image Include="App\Resources\rule800\187.jpg" />
-    <Image Include="App\Resources\rule800\188.jpg" />
-    <Image Include="App\Resources\rule800\189.jpg" />
-    <Image Include="App\Resources\rule800\19.png" />
-    <Image Include="App\Resources\rule800\190.jpg" />
-    <Image Include="App\Resources\rule800\191.jpg" />
-    <Image Include="App\Resources\rule800\192.jpg" />
-    <Image Include="App\Resources\rule800\193.jpg" />
-    <Image Include="App\Resources\rule800\194.jpg" />
-    <Image Include="App\Resources\rule800\195.jpg" />
-    <Image Include="App\Resources\rule800\196.jpg" />
-    <Image Include="App\Resources\rule800\197.jpg" />
-    <Image Include="App\Resources\rule800\198.jpg" />
-    <Image Include="App\Resources\rule800\199.jpg" />
-    <Image Include="App\Resources\rule800\2.png" />
-    <Image Include="App\Resources\rule800\20.png" />
-    <Image Include="App\Resources\rule800\200.jpg" />
-    <Image Include="App\Resources\rule800\201.jpg" />
-    <Image Include="App\Resources\rule800\202.jpg" />
-    <Image Include="App\Resources\rule800\203.jpg" />
-    <Image Include="App\Resources\rule800\204.jpg" />
-    <Image Include="App\Resources\rule800\205.jpg" />
-    <Image Include="App\Resources\rule800\206.jpg" />
-    <Image Include="App\Resources\rule800\207.jpg" />
-    <Image Include="App\Resources\rule800\208.jpg" />
-    <Image Include="App\Resources\rule800\209.jpg" />
-    <Image Include="App\Resources\rule800\21.png" />
-    <Image Include="App\Resources\rule800\210.jpg" />
-    <Image Include="App\Resources\rule800\211.jpg" />
-    <Image Include="App\Resources\rule800\212.jpg" />
-    <Image Include="App\Resources\rule800\213.jpg" />
-    <Image Include="App\Resources\rule800\214.jpg" />
-    <Image Include="App\Resources\rule800\215.jpg" />
-    <Image Include="App\Resources\rule800\216.jpg" />
-    <Image Include="App\Resources\rule800\217.jpg" />
-    <Image Include="App\Resources\rule800\218.jpg" />
-    <Image Include="App\Resources\rule800\219.jpg" />
-    <Image Include="App\Resources\rule800\22.png" />
-    <Image Include="App\Resources\rule800\220.jpg" />
-    <Image Include="App\Resources\rule800\221.jpg" />
-    <Image Include="App\Resources\rule800\222.jpg" />
-    <Image Include="App\Resources\rule800\223.jpg" />
-    <Image Include="App\Resources\rule800\224.jpg" />
-    <Image Include="App\Resources\rule800\225.jpg" />
-    <Image Include="App\Resources\rule800\226.jpg" />
-    <Image Include="App\Resources\rule800\227.jpg" />
-    <Image Include="App\Resources\rule800\228.jpg" />
-    <Image Include="App\Resources\rule800\229.jpg" />
-    <Image Include="App\Resources\rule800\23.png" />
-    <Image Include="App\Resources\rule800\230.jpg" />
-    <Image Include="App\Resources\rule800\231.jpg" />
-    <Image Include="App\Resources\rule800\232.jpg" />
-    <Image Include="App\Resources\rule800\233.jpg" />
-    <Image Include="App\Resources\rule800\24.png" />
-    <Image Include="App\Resources\rule800\25.png" />
-    <Image Include="App\Resources\rule800\26.png" />
-    <Image Include="App\Resources\rule800\27.png" />
-    <Image Include="App\Resources\rule800\28.png" />
-    <Image Include="App\Resources\rule800\29.png" />
-    <Image Include="App\Resources\rule800\3.png" />
-    <Image Include="App\Resources\rule800\30.png" />
-    <Image Include="App\Resources\rule800\31.png" />
-    <Image Include="App\Resources\rule800\32.png" />
-    <Image Include="App\Resources\rule800\33.png" />
-    <Image Include="App\Resources\rule800\34.png" />
-    <Image Include="App\Resources\rule800\35.png" />
-    <Image Include="App\Resources\rule800\36.png" />
-    <Image Include="App\Resources\rule800\37.png" />
-    <Image Include="App\Resources\rule800\38.png" />
-    <Image Include="App\Resources\rule800\39.png" />
-    <Image Include="App\Resources\rule800\4.png" />
-    <Image Include="App\Resources\rule800\40.png" />
-    <Image Include="App\Resources\rule800\41.png" />
-    <Image Include="App\Resources\rule800\42.png" />
-    <Image Include="App\Resources\rule800\43.png" />
-    <Image Include="App\Resources\rule800\44.png" />
-    <Image Include="App\Resources\rule800\45.png" />
-    <Image Include="App\Resources\rule800\46.png" />
-    <Image Include="App\Resources\rule800\47.png" />
-    <Image Include="App\Resources\rule800\48.png" />
-    <Image Include="App\Resources\rule800\49.png" />
-    <Image Include="App\Resources\rule800\5.png" />
-    <Image Include="App\Resources\rule800\50.png" />
-    <Image Include="App\Resources\rule800\51.png" />
-    <Image Include="App\Resources\rule800\52.png" />
-    <Image Include="App\Resources\rule800\53.png" />
-    <Image Include="App\Resources\rule800\54.png" />
-    <Image Include="App\Resources\rule800\55.png" />
-    <Image Include="App\Resources\rule800\56.png" />
-    <Image Include="App\Resources\rule800\57.png" />
-    <Image Include="App\Resources\rule800\58.png" />
-    <Image Include="App\Resources\rule800\59.png" />
-    <Image Include="App\Resources\rule800\6.png" />
-    <Image Include="App\Resources\rule800\60.png" />
-    <Image Include="App\Resources\rule800\61.png" />
-    <Image Include="App\Resources\rule800\62.png" />
-    <Image Include="App\Resources\rule800\63.png" />
-    <Image Include="App\Resources\rule800\64.png" />
-    <Image Include="App\Resources\rule800\65.png" />
-    <Image Include="App\Resources\rule800\66.png" />
-    <Image Include="App\Resources\rule800\67.png" />
-    <Image Include="App\Resources\rule800\68.png" />
-    <Image Include="App\Resources\rule800\69.png" />
-    <Image Include="App\Resources\rule800\7.png" />
-    <Image Include="App\Resources\rule800\70.png" />
-    <Image Include="App\Resources\rule800\71.png" />
-    <Image Include="App\Resources\rule800\72.png" />
-    <Image Include="App\Resources\rule800\73.png" />
-    <Image Include="App\Resources\rule800\74.png" />
-    <Image Include="App\Resources\rule800\75.png" />
-    <Image Include="App\Resources\rule800\76.png" />
-    <Image Include="App\Resources\rule800\77.png" />
-    <Image Include="App\Resources\rule800\78.png" />
-    <Image Include="App\Resources\rule800\79.png" />
-    <Image Include="App\Resources\rule800\8.png" />
-    <Image Include="App\Resources\rule800\80.png" />
-    <Image Include="App\Resources\rule800\81.png" />
-    <Image Include="App\Resources\rule800\82.png" />
-    <Image Include="App\Resources\rule800\83.png" />
-    <Image Include="App\Resources\rule800\84.png" />
-    <Image Include="App\Resources\rule800\85.png" />
-    <Image Include="App\Resources\rule800\86.png" />
-    <Image Include="App\Resources\rule800\87.png" />
-    <Image Include="App\Resources\rule800\88.png" />
-    <Image Include="App\Resources\rule800\89.png" />
-    <Image Include="App\Resources\rule800\9.png" />
-    <Image Include="App\Resources\rule800\90.png" />
-    <Image Include="App\Resources\rule800\91.png" />
-    <Image Include="App\Resources\rule800\92.png" />
-    <Image Include="App\Resources\rule800\93.png" />
-    <Image Include="App\Resources\rule800\94.png" />
-    <Image Include="App\Resources\rule800\95.png" />
-    <Image Include="App\Resources\rule800\96.png" />
-    <Image Include="App\Resources\rule800\97.png" />
-    <Image Include="App\Resources\rule800\98.png" />
-    <Image Include="App\Resources\rule800\99.png" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="App\Resource.rc" />
